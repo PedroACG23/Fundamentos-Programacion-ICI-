@@ -162,7 +162,7 @@ Se requiere un incio, con un proceso se hace un contador para los numeros natura
 #### 14.2 Diagrama
 ![dfd 14](https://user-images.githubusercontent.com/113472808/190945919-0ea47a8d-2f4c-4f38-93f4-ca8675f05fe2.jpg)
 #### 14.3 Prueba de escritorio
-
+![image](https://user-images.githubusercontent.com/113472808/190950119-ce00b111-f12c-41dc-84ba-efead85e8e82.png)
 #### 14.4 Entradas
 Se establecen un contador en C y se guarda el registro de la suma en S
 #### 14.5 Salida
@@ -174,7 +174,7 @@ Se requiere un inicio, se crea un contador en 1 y se hace un proceso de multipli
 #### 15.2 Diagrama
 ![dfd 15](https://user-images.githubusercontent.com/113472808/190946222-3a703bde-94de-4a34-845a-d2a56d4f4af7.jpg)
 #### 15.3 Prueba de escritorio
-
+![image](https://user-images.githubusercontent.com/113472808/190950282-948da3fb-ce0b-421b-9d80-e1831038c6ff.png)
 #### 15.4 Entradas
 Se inicia un contador C = 1 y el resultado de los procesos en S
 #### 15.5 Salidas
@@ -186,7 +186,7 @@ Se requiere un inicio, se crea un proceso con un contador en 1 y una suma para l
 #### 16.2 Diagrama
 ![dfd 16](https://user-images.githubusercontent.com/113472808/190946760-999ce64c-5c61-4fc6-9b66-f117cd845b5a.jpg)
 #### 16.3 Prueba de escritorio
-
+![image](https://user-images.githubusercontent.com/113472808/190950655-f83e911e-4696-408c-8d9e-36a8349391d2.png)
 #### 16.4 Entradas
 Se genera un contado en C y la suma de los pares en SP, posteriormente pide el numero en N, y el numero de C para N se registra en V
 #### 16.5 Salidas
@@ -194,11 +194,11 @@ SP
 
 ### Ejercicio 17. Diga si un numero capturado es par o impar
 #### 17.1 Analisis
-Se pide que se digite un numero en una entradad de datos, una condicion comprueba que sea positivo mediante un <0, posteriormente se hace un MOD para que N%2=0 si esto se cumple el numero es par y si no imprime que es impar, para dar fin al prgrama
+Se requiere un inicio Se pide que se digite un numero en una entradad de datos, una condicion comprueba que sea positivo mediante un <0, posteriormente se hace un MOD para que N%2=0 si esto se cumple el numero es par y si no imprime que es impar, para dar fin al prgrama
 #### 17.2 Diagrama
 ![dfd 17](https://user-images.githubusercontent.com/113472808/190947621-365698f5-3074-41ce-bb47-7e45cf4de247.jpg)
 #### 17.3 Prueba de escritorio
-
+![image](https://user-images.githubusercontent.com/113472808/190950757-c3f8b359-d420-4a52-9870-dcbc143695bf.png)
 #### 17.4 Entradas
 Se registra el numero pedido como N
 #### 17.5 Salidas
@@ -210,6 +210,7 @@ Se requiere un inicio, se pregunta un digito al usuario guardado como N despues 
 #### 18.2 Diagrama
 ![dfd 18](https://user-images.githubusercontent.com/113472808/190948392-fd90405c-d3ac-4a7a-903b-ae30620570f9.jpg)
 #### 18.3 Prueba de escritorio
+![image](https://user-images.githubusercontent.com/113472808/190950932-e6328f7c-cb2c-458c-a853-68f0cd8c2b4b.png)
 #### 18.4 Entradas
 Ninguna, solo se pide el digito de N para comprobar si es mayor a 10
 #### 18.5 Salidas
@@ -221,10 +222,34 @@ Se requiere un inicio se pide insertar un numero que sera comprobado con una con
 #### 19.2 Diagrama
 ![dfd 19](https://user-images.githubusercontent.com/113472808/190948726-0952217e-e248-40a1-9552-0d393f8f038a.jpg)
 #### 19.3 Prueba de escritorio
-
+![image](https://user-images.githubusercontent.com/113472808/190951117-d9036581-2ea0-40ca-8189-0b8973727bd2.png)
 #### 19.4 Entradas
 Se asigna el valor de N en 0 para pedir el numero digitado en num.
 #### 19.5 Salidas
 "Te falta N para llegar a 10" o "Te pasaste por N"
 
-### 20. Capture N numeros, diga cuantos son positvos y cuantos son negativos
+### 20. Capture N numeros, diga cuantos son positvos y cuantos son negativos, 0 para finalizar
+#### 20.1 Analisis
+Se requiere un inicio se pone un proceso con los contadores de los positivos y los negativos, para pedir un numero al usuario mediante una entrada de datos, se comprueba en una condicion si el num es 0 para finalizar, de no ser asi, se comprueba si es mayor o menor a 0 y sumar el contador ya sea de los positivos o los negativos hasta que se capture el 0 para imprmir el contador total para dar fin al programa
+#### 20.2 Diagrama
+![dfd 20](https://user-images.githubusercontent.com/113472808/190949282-6e0883ef-40a3-4d2b-884d-c333899757bc.jpg)
+#### 20.3 Prueba de escritorio
+![image](https://user-images.githubusercontent.com/113472808/190951300-2aa3ff73-e95b-4bb0-8880-e89504263941.png)
+#### 20.4 Entradas
+Cp para contador positivos Cn para contador negativos se pregunta por el numero como num
+#### 20.5 salida
+Positivos Cp y Negativos Cn
+
+### 21. Capturar un numero positivo o negativo, 0 para terminar, contar del 0 hasta ese numero
+#### 21.1 Analisis
+Se requiere un inicio, se pide el numero al usuario mediante una entrada de datos y se comprueba si es positivo o negrativo en una condicion, si es negativo el contador aumenta en uno y genera un bucle hasta que el contador de como suma el resultado del numero, lo mismo si es negativo, una vez terminado lo imprime para dar fin al programa.
+#### 21.2 Diagrama
+![dfd 21](https://user-images.githubusercontent.com/113472808/190949622-3a954e4b-8b8c-4940-a69a-8745b0a3084a.jpg)
+#### 21.3 Prueba de escritorio
+![image](https://user-images.githubusercontent.com/113472808/190951500-fcda677b-a4d0-44da-8f54-74f857ab06ae.png)
+#### 21.4 Entradas
+Se establece un cont y se pide un numero registrado en num
+#### 21.5 Salidas
+cont=num
+
+# FIN
