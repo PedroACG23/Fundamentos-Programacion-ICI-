@@ -132,4 +132,16 @@ Se pregunta al usuario su año actual como "aact" y posteriormente su año de na
 #### 11.5 Salidas
 aact-anac
 
-### Ejercicio 12. 
+### Ejercicio 12. Pregunte un año de nacimiento mayor a 0 y el año actual mayor a 0 y calcule la edad.
+#### 12.1 Analisis
+Se requiere un inicio, se le pedira al usuario su año de nacimiento y se comprobara que sea mayor a 0 si la condicion se cumple le pedira el año de actual mayor al año nacimiento, si se cumple la condicion se genera un proceso de operacion para calcular la edad aact-anac
+#### 12.2 Diagrama
+![dfd 12](https://user-images.githubusercontent.com/113472808/190942454-b638aec7-a8bf-407e-bd72-68dade1a1de0.jpg)
+#### 12.3 Prueba de escritorio
+![Prueba 12](https://user-images.githubusercontent.com/113472808/190944120-343a39aa-7733-4640-9ba0-58b9ec09dab7.PNG)
+#### 12.4 Entradas
+Se le pide al usuario su año de nacimiento mayor a 0 guardado como anac y el actual registrado como aact
+#### 12.5 Salidas
+aact-anac
+
+### Ejercicio 13. 
