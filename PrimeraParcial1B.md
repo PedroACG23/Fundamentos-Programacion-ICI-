@@ -92,7 +92,7 @@ Se requiere un inicio, se hara una entrada de datos para conocer el año de naci
 #### 8.3 Prueba de escritorio
 ![Prueba8](https://user-images.githubusercontent.com/113472808/190938716-8d8b5a2f-56ba-4eef-9429-7394177dfb6b.PNG)
 #### 8.4 Entradas
-Se pregunta al usuario su año de nacimiento registrado como anac
+Se pregunta al usuario su año de nacimiento registrado como "anac"
 #### 8.5 Salidas
 2022-anac
 
@@ -100,4 +100,26 @@ Se pregunta al usuario su año de nacimiento registrado como anac
 #### 9.1 Analisis
 Se requiere un inicio, posteriormente mediante una entrada de datos se preguntara el año de nacimiento registrado como anac y el año actual registrado como aact, para despues sacar la edad de la persona calculando la resta de aact-anac para dar fin al programa
 #### 9.2 Diagrama
+![dfd 9](https://user-images.githubusercontent.com/113472808/190938935-8a0e0886-2485-4244-b746-5c57c0a510bd.jpg)
+#### 9.3 Prueba de escritorio
+![Prueba9](https://user-images.githubusercontent.com/113472808/190939049-95c89175-8074-4c13-89c4-7c475d74bcbe.PNG)
+#### 9.4 Entradas
+Se registra el año actual como "anac" y el año de nacimiento como "aact"
+#### 9.5 Salidas
+aact-anac
 
+### Ejercicio 10. Obtenga el cuadrado de la suma de 2 numeros enteros
+#### 10.1 Analisis
+Se requiere un inicio, mediante una entrada de datos se pediira un numero y posteriormente otro para despues en un proceso sacar el cuadrado de la suma de esos 2 para dar fin al programa
+#### 10.2 Diagrama
+![dfd 10](https://user-images.githubusercontent.com/113472808/190939699-b25a989b-6208-4201-ac62-52a4a0f867c1.jpg)
+#### 10.3 Prueba de escritorio
+![Prueba10](https://user-images.githubusercontent.com/113472808/190939857-ec4ae301-666c-4218-9937-02c185c1a5d6.PNG)
+#### 10.4 Entradas
+Se piden 2 numeros registrados con las variables n1 y n2 respectivamente
+#### 10.5 Salidas
+(n1+n2)x(n1+n2)
+
+### Ejercicio 11. Elabore un algoritmo para saber la edad de una persona
+#### 11.1 Analisis
+Se requiere un inicio, en esta ocasion se hara una entrada de datos que registrara el año actual de la persona y su año de nacimiento, posteriormente se comprobara si el año actual de la persona es superior al de nacimiento, si la condicion no se cumple regresara a pedir nuevamente el año actual siendo mayor que el de nacimiento, en caso de que si se cumple se realizara un proceso para saber la edad restando el año de nacimiento al año actual
