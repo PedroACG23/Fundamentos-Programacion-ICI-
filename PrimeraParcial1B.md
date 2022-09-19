@@ -147,3 +147,84 @@ aact-anac
 ### Ejercicio 13. Escriba un algoritmo que cuente del 1 al 10
 #### 13.1 Analisis
 Se requiere un inicio, se programa un contador en un proceso y se imprime, mediante una condicion se espera que sea 10, en caso no ser 10 el contador aumenta en 1 y regresa a repetir el proceso, una vez el valor sea 10 imprime los 10 numeros para dar fin al programa
+#### 13.2 Diagrama
+![dfd 13](https://user-images.githubusercontent.com/113472808/190945068-d9483cd8-1b7e-4104-9416-878c565cab0f.jpg)
+#### 13.3 Prueba de escritorio
+![image](https://user-images.githubusercontent.com/113472808/190945543-cd75ca9b-3bc1-4131-b1d2-9f890305610f.png)
+#### 13.4 Entradas
+Ninguna se crea un proceso con un contador en sumatoria
+#### 13.5 Salidas
+1,2,3,4,5,6,7,8,9,10
+
+### Ejercicio 14. Escribe el resultado de la suma de los numeros naturales del 1 al 10
+#### 14.2 Analisis
+Se requiere un incio, con un proceso se hace un contador para los numeros naturales hasta el 10 y con el otro para el proceso de la suma, empiezan los procesos de la suma + el contador para entrar en una condicion, si el resultado es menor a 10 aumenta el contador y regresa a la suma, cuando el resultado ya sea 10 imprime el resultado de las sumas para dar fin al programa.
+#### 14.2 Diagrama
+![dfd 14](https://user-images.githubusercontent.com/113472808/190945919-0ea47a8d-2f4c-4f38-93f4-ca8675f05fe2.jpg)
+#### 14.3 Prueba de escritorio
+
+#### 14.4 Entradas
+Se establecen un contador en C y se guarda el registro de la suma en S
+#### 14.5 Salida
+S
+
+### Ejercicio 15. Generar los numeros pares del 1 al 10
+#### 15.1 Analisis 
+Se requiere un inicio, se crea un contador en 1 y se hace un proceso de multiplicacion x2 hasta que de una condicion que el numero sea igual a 10, en caso de no ser asi regresa al contador y vuelve a hacer la operacion para dar fin al programa una vez llegado a 10
+#### 15.2 Diagrama
+![dfd 15](https://user-images.githubusercontent.com/113472808/190946222-3a703bde-94de-4a34-845a-d2a56d4f4af7.jpg)
+#### 15.3 Prueba de escritorio
+
+#### 15.4 Entradas
+Se inicia un contador C = 1 y el resultado de los procesos en S
+#### 15.5 Salidas
+2,4,6,8,10
+
+### Ejercicio 16. Capture N numeros positivos e imprima solamente la suma de los pares
+#### 16.1 Analisis
+Se requiere un inicio, se crea un proceso con un contador en 1 y una suma para los pares en 0, pregunta al usuario los digitos mediante una entrada de datos, una condicion asegura que sean numeros positivos preguntando si es mayor a 0, posteriormente pide la entrada de los numeros C de N, comprueba que sea mayor a 0 una condicion y de ser asi con un mod verifica que sea par, si es asi la suma aumenta en uno y el contador aumenta en 1 gasta que se llegue al numero digitado, imprime la suma total de los pares y finaliza el programa.
+#### 16.2 Diagrama
+![dfd 16](https://user-images.githubusercontent.com/113472808/190946760-999ce64c-5c61-4fc6-9b66-f117cd845b5a.jpg)
+#### 16.3 Prueba de escritorio
+
+#### 16.4 Entradas
+Se genera un contado en C y la suma de los pares en SP, posteriormente pide el numero en N, y el numero de C para N se registra en V
+#### 16.5 Salidas
+SP
+
+### Ejercicio 17. Diga si un numero capturado es par o impar
+#### 17.1 Analisis
+Se pide que se digite un numero en una entradad de datos, una condicion comprueba que sea positivo mediante un <0, posteriormente se hace un MOD para que N%2=0 si esto se cumple el numero es par y si no imprime que es impar, para dar fin al prgrama
+#### 17.2 Diagrama
+![dfd 17](https://user-images.githubusercontent.com/113472808/190947621-365698f5-3074-41ce-bb47-7e45cf4de247.jpg)
+#### 17.3 Prueba de escritorio
+
+#### 17.4 Entradas
+Se registra el numero pedido como N
+#### 17.5 Salidas
+"Es par" o "Es impar"
+
+### 18. Diga si un numero digitado es mayor a 10
+#### 18.1
+Se requiere un inicio, se pregunta un digito al usuario guardado como N despues se crea una condicion para saber si es menor a 10, en caso de ser asi el numero es menor a 10, de no ser asi imprime que es mayor para dar fin al programa
+#### 18.2 Diagrama
+![dfd 18](https://user-images.githubusercontent.com/113472808/190948392-fd90405c-d3ac-4a7a-903b-ae30620570f9.jpg)
+#### 18.3 Prueba de escritorio
+#### 18.4 Entradas
+Ninguna, solo se pide el digito de N para comprobar si es mayor a 10
+#### 18.5 Salidas
+"Es menor a 10" o "Es mayor a 10"
+
+### Ejercicio 19. haga un algoritmo para saber cuanto me falta para llegar a 10
+#### 19.1 Analisis
+Se requiere un inicio se pide insertar un numero que sera comprobado con una condicion si es mayor a 10 en caso no ser asi se resta al numero introducido e imprime la cantidad restante, en caso de ser mayor al digito se le resta 10 e imprime por cuanto te pasaste, para dar fin al programa.
+#### 19.2 Diagrama
+![dfd 19](https://user-images.githubusercontent.com/113472808/190948726-0952217e-e248-40a1-9552-0d393f8f038a.jpg)
+#### 19.3 Prueba de escritorio
+
+#### 19.4 Entradas
+Se asigna el valor de N en 0 para pedir el numero digitado en num.
+#### 19.5 Salidas
+"Te falta N para llegar a 10" o "Te pasaste por N"
+
+### 20. Capture N numeros, diga cuantos son positvos y cuantos son negativos
