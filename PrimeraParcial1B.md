@@ -122,4 +122,14 @@ Se piden 2 numeros registrados con las variables n1 y n2 respectivamente
 
 ### Ejercicio 11. Elabore un algoritmo para saber la edad de una persona
 #### 11.1 Analisis
-Se requiere un inicio, en esta ocasion se hara una entrada de datos que registrara el año actual de la persona y su año de nacimiento, posteriormente se comprobara si el año actual de la persona es superior al de nacimiento, si la condicion no se cumple regresara a pedir nuevamente el año actual siendo mayor que el de nacimiento, en caso de que si se cumple se realizara un proceso para saber la edad restando el año de nacimiento al año actual
+Se requiere un inicio, en esta ocasion se hara una entrada de datos que registrara el año actual de la persona y su año de nacimiento, posteriormente se comprobara si el año actual de la persona es superior al de nacimiento, si la condicion no se cumple regresara a pedir nuevamente el año actual siendo mayor que el de nacimiento, en caso de que si se cumple se realizara un proceso para saber la edad restando el año de nacimiento al año actual para dar fin al programa
+#### 11.2 Diagrama
+![dfd 11](https://user-images.githubusercontent.com/113472808/190940329-0836bbb4-c825-4725-bb29-fc930f7a3993.jpg)
+#### 11.3 Prueba de escritorio
+![Prueba11](https://user-images.githubusercontent.com/113472808/190941349-7519dcdf-3ba7-43b8-8821-1762a7712014.PNG)
+#### 11.4 Entradas
+Se pregunta al usuario su año actual como "aact" y posteriormente su año de nacimiento como "anac" luego se hace una operacion para calcular la edad
+#### 11.5 Salidas
+aact-anac
+
+### Ejercicio 12. 
