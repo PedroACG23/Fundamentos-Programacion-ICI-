@@ -33,6 +33,8 @@ Se requiere insertar un inicio, se pedira el nombre en un proceso para asignar l
 ![Prueba3](https://user-images.githubusercontent.com/113472808/190934783-b89d1853-b4ab-43c9-affc-b8ecfe692d00.PNG)
 #### 3.4 Entradas
 Ninguna, solo se asigna una cadena con el Nombre para posteriormente imprimir el mensaje "Hola,Nombre" para dar fin al programa
+#### 3.5 Salidas
+Hola Pedro
 
 ### Ejercicio 4. Preguntar al usuario su nombre y decirle "Buen dia,Nombre"
 #### 4.1 Analisis
@@ -40,3 +42,9 @@ Se requiere insertar un inicio, el programa preguntara el nombre al usuario, lo 
 #### 4.2 Diagrama
 ![dfd 4](https://user-images.githubusercontent.com/113472808/190935118-912cb3bb-6365-4797-8fe6-52d7863bb308.jpg)
 #### 4.3 Prueba de escritorio
+![Prueba4](https://user-images.githubusercontent.com/113472808/190936214-9e9812d1-cda7-40c5-a980-049e0c0cd13b.PNG)
+#### 4.4 Entradas
+Se pide que se introduzca el nombre de la persona
+#### 4.5 Salidas
+Buen dia Pedro
+
