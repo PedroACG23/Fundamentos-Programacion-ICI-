@@ -59,3 +59,45 @@ Se requiere un inicio, para ingresar un proceso de datos para la operacion 2x2 p
 Ninguna solo se realiza el proceso 2x2
 #### 5.5
 2x2
+
+### Ejercicio 6. Escriba un algoritmo que calcule el cuadrado de N para N=5
+#### 6.1 Analisis
+Se requiere un inicio, para ingresar el valor de N que sera de 5, posteriomente un proceso donde se saque su cuadrado con NxN para despues dar fin al programa
+#### 6.2 Diagrama
+![dfd 6](https://user-images.githubusercontent.com/113472808/190938266-29e269f7-e5ce-45e4-a663-7951dabb3f3d.jpg)
+#### 6.3 Prueba de escritorio
+![Prueba6](https://user-images.githubusercontent.com/113472808/190938291-fef70064-aac0-4b32-8698-f33c87e781d5.PNG)
+#### 6.4 Entradas
+Ninguna, en este caso solo se le imparte el valor de 5 a N
+#### 6.5 Salidas 
+NxN
+
+### Ejercicio 7. Pregunte al usuario el valor de N y obtenga su cuadrado
+#### 7.1 Analisis
+Se requiere un inicio, se hara una entrada de datos para saber el valor que se le dara a N y posteriormente se hara un proceso de datos para sacar su cuadrado mediante NxN para dar fin al programa.
+#### 7.2 Diagrama
+![dfd 7](https://user-images.githubusercontent.com/113472808/190938513-d062cebd-062a-4671-a71b-54cc9d0cc237.jpg)
+#### 7.3 Prueba de escritorio
+![Prueba7](https://user-images.githubusercontent.com/113472808/190938531-1b44c3a1-0af2-4a56-a858-bfa062d939ac.PNG)
+#### 7.4 Entradas
+Se solicita el valor de N para dar paso a la operacion
+#### 7.5 Salidas
+NxN
+
+### Ejercicio 8. Pregunte el año de nacimiento y registre su edad
+#### 8.1 Analisis
+Se requiere un inicio, se hara una entrada de datos para conocer el año de nacimiento del usuario, posteriormente se hara un proceso para calcular su edad restando a 2022 el año de nacimiento de la persona, para despues dar fin al programa.
+#### 8.2 Diagrama
+![dfd 8](https://user-images.githubusercontent.com/113472808/190938702-9e14ccb2-de84-4b85-85e8-f385b68505cc.jpg)
+#### 8.3 Prueba de escritorio
+![Prueba8](https://user-images.githubusercontent.com/113472808/190938716-8d8b5a2f-56ba-4eef-9429-7394177dfb6b.PNG)
+#### 8.4 Entradas
+Se pregunta al usuario su año de nacimiento registrado como anac
+#### 8.5 Salidas
+2022-anac
+
+### Ejercicio 9. Pregunte el año actual, año de nacimiento del usuario y calcule su edad
+#### 9.1 Analisis
+Se requiere un inicio, posteriormente mediante una entrada de datos se preguntara el año de nacimiento registrado como anac y el año actual registrado como aact, para despues sacar la edad de la persona calculando la resta de aact-anac para dar fin al programa
+#### 9.2 Diagrama
+
