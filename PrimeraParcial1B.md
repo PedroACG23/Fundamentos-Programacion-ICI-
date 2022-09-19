@@ -134,7 +134,7 @@ aact-anac
 
 ### Ejercicio 12. Pregunte un año de nacimiento mayor a 0 y el año actual mayor a 0 y calcule la edad.
 #### 12.1 Analisis
-Se requiere un inicio, se le pedira al usuario su año de nacimiento y se comprobara que sea mayor a 0 si la condicion se cumple le pedira el año de actual mayor al año nacimiento, si se cumple la condicion se genera un proceso de operacion para calcular la edad aact-anac
+Se requiere un inicio, se le pedira al usuario su año de nacimiento y se comprobara que sea mayor a 0 si la condicion se cumple le pedira el año de actual mayor al año nacimiento, si se cumple la condicion se genera un proceso de operacion para calcular la edad aact-anac para dar fin al programa
 #### 12.2 Diagrama
 ![dfd 12](https://user-images.githubusercontent.com/113472808/190942454-b638aec7-a8bf-407e-bd72-68dade1a1de0.jpg)
 #### 12.3 Prueba de escritorio
@@ -144,4 +144,6 @@ Se le pide al usuario su año de nacimiento mayor a 0 guardado como anac y el ac
 #### 12.5 Salidas
 aact-anac
 
-### Ejercicio 13. 
+### Ejercicio 13. Escriba un algoritmo que cuente del 1 al 10
+#### 13.1 Analisis
+Se requiere un inicio, se programa un contador en un proceso y se imprime, mediante una condicion se espera que sea 10, en caso no ser 10 el contador aumenta en 1 y regresa a repetir el proceso, una vez el valor sea 10 imprime los 10 numeros para dar fin al programa
