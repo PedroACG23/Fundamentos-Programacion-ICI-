@@ -48,3 +48,14 @@ Se pide que se introduzca el nombre de la persona
 #### 4.5 Salidas
 Buen dia Pedro
 
+### Ejercio 5. Escriba un diagrama de flujo que calcule el cuadrado de 2
+#### 5.1 Analisis 
+Se requiere un inicio, para ingresar un proceso de datos para la operacion 2x2 para imprimir el resultado y dar fin al programa
+#### 5.2 Diagrama
+![dfd 5](https://user-images.githubusercontent.com/113472808/190936627-cec4d470-d3fd-4521-9b73-f67b7e185cf7.jpg)
+#### 5.3 Prueba de escritorio
+![Prueba5](https://user-images.githubusercontent.com/113472808/190936639-8b5e7f29-d8ee-477c-835b-0f9d3f9f9726.PNG)
+#### 5.4 Entradas
+Ninguna solo se realiza el proceso 2x2
+#### 5.5
+2x2
