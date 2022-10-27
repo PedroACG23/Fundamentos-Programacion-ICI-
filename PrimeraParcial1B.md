@@ -1,6 +1,6 @@
 # Presentación
 ## Problemas resueltos en clase con Diagrama de flujo de datos Parcial 2
-### Ejercicio 1. Hacer un diagrama que cuente hasta el 10 e imprima el conteo.
+### Ejercicio 1. Imprimir el nombre de una persona.
 #### 1.1 Analisis
 Se requiere insertar un inicio y posteriormente una salida de datos que imprima el texto "Nombre" para dar fin con el programa
 #### 1.2 Diagrama
@@ -12,7 +12,7 @@ Ningua, solo se asigna la impresion de "Nombre"
 #### 1.5 Salidas
 Nombre
 
-### Ejercicio 2. Contar del 1 al 10 y sumar los valores.
+### Ejercicio 2. Imprimir un dia de la semana.
 #### 2.1 Analisis
 Se requiere insertar un inicio y posteriormente una salida de datos que imprima un dia de la semana como texto "Dia" para dar fin con el programa
 #### 2.2 Diagrama
@@ -24,7 +24,7 @@ Ninguna, solo se asigna la impresion de "Lunes"
 #### 2.5 Salidas
 Lunes
 
-### Ejercicio 3. Obtenga la suma de los primeros 5 numeros pares.
+### Ejercicio 3. Escribir un algoritmo que escriba "Hola, Nombre"
 #### 3.1 Analisis
 Se requiere insertar un inicio, se pedira el nombre en un proceso para asignar la variable, imprimira "Hola Nombre" para dar fin al programa
 #### 3.2 Diagrama
@@ -36,7 +36,7 @@ Ninguna, solo se asigna una cadena con el Nombre para posteriormente imprimir el
 #### 3.5 Salidas
 Hola Pedro
 
-### Ejercicio 4. Almacena en un array el numero N leido del teclado, el tamaño del array es 10.
+### Ejercicio 4. Preguntar al usuario su nombre y decirle "Buen dia,Nombre"
 #### 4.1 Analisis
 Se requiere insertar un inicio, el programa preguntara el nombre al usuario, lo asignara en una entrada de datos y soltara una salida imprimiendo "Buen dia,Nom" para dar fin al programa
 #### 4.2 Diagrama
@@ -48,7 +48,7 @@ Se pide que se introduzca el nombre de la persona
 #### 4.5 Salidas
 Buen dia Pedro
 
-### Ejercio 5. Almacene los N numeros leidos del teclado en un vector de 10 elementos.
+### Ejercio 5. Escriba un diagrama de flujo que calcule el cuadrado de 2
 #### 5.1 Analisis 
 Se requiere un inicio, para ingresar un proceso de datos para la operacion 2x2 para imprimir el resultado y dar fin al programa
 #### 5.2 Diagrama
@@ -60,7 +60,7 @@ Ninguna solo se realiza el proceso 2x2
 #### 5.5
 2x2
 
-### Ejercicio 6. Almacene un contador regresivo en un vector, el conteo es de 10 a 0
+### Ejercicio 6. Escriba un algoritmo que calcule el cuadrado de N para N=5
 #### 6.1 Analisis
 Se requiere un inicio, para ingresar el valor de N que sera de 5, posteriomente un proceso donde se saque su cuadrado con NxN para despues dar fin al programa
 #### 6.2 Diagrama
@@ -72,7 +72,7 @@ Ninguna, en este caso solo se le imparte el valor de 5 a N
 #### 6.5 Salidas 
 NxN
 
-### Ejercicio 7. Almacene en un vector de tamaño 10 todos los numeros pares capturados hasta completar todos.
+### Ejercicio 7. Pregunte al usuario el valor de N y obtenga su cuadrado
 #### 7.1 Analisis
 Se requiere un inicio, se hara una entrada de datos para saber el valor que se le dara a N y posteriormente se hara un proceso de datos para sacar su cuadrado mediante NxN para dar fin al programa.
 #### 7.2 Diagrama
@@ -84,7 +84,7 @@ Se solicita el valor de N para dar paso a la operacion
 #### 7.5 Salidas
 NxN
 
-### Ejercicio 8. Obtenga el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificacion es entre 0 y 10 y el maximo de alumnos es 15. Indique la calificacion mas alta.
+### Ejercicio 8. Pregunte el año de nacimiento y registre su edad
 #### 8.1 Analisis
 Se requiere un inicio, se hara una entrada de datos para conocer el año de nacimiento del usuario, posteriormente se hara un proceso para calcular su edad restando a 2022 el año de nacimiento de la persona, para despues dar fin al programa.
 #### 8.2 Diagrama
@@ -96,7 +96,7 @@ Se pregunta al usuario su año de nacimiento registrado como "anac"
 #### 8.5 Salidas
 2022-anac
 
-### Ejercicio 9. Capture N numeros en el rango li ls donde Li=Limite inferior y Ls=limite superior para Li<ls y Li>0. Obtenga Cantidad de numeros pares y su promedio, cantidad de numeros impares y su promedio y que promedio es mayor.
+### Ejercicio 9. Pregunte el año actual, año de nacimiento del usuario y calcule su edad
 #### 9.1 Analisis
 Se requiere un inicio, posteriormente mediante una entrada de datos se preguntara el año de nacimiento registrado como anac y el año actual registrado como aact, para despues sacar la edad de la persona calculando la resta de aact-anac para dar fin al programa
 #### 9.2 Diagrama
@@ -108,7 +108,7 @@ Se registra el año actual como "anac" y el año de nacimiento como "aact"
 #### 9.5 Salidas
 aact-anac
 
-### Ejercicio 10. Obtener la frecuencia de N calificaciones entre 1,10 Indique cantidad de reprobados, cantidad de aprobados, promedio de aprobados y promedio general.
+### Ejercicio 10. Obtenga el cuadrado de la suma de 2 numeros enteros
 #### 10.1 Analisis
 Se requiere un inicio, mediante una entrada de datos se pediira un numero y posteriormente otro para despues en un proceso sacar el cuadrado de la suma de esos 2 para dar fin al programa
 #### 10.2 Diagrama
@@ -120,7 +120,7 @@ Se piden 2 numeros registrados con las variables n1 y n2 respectivamente
 #### 10.5 Salidas
 (n1+n2)x(n1+n2)
 
-### Ejercicio 11. Captura 10 numeros enteros positivos y los ponga en un verctor, diga cual es mayor.
+### Ejercicio 11. Elabore un algoritmo para saber la edad de una persona
 #### 11.1 Analisis
 Se requiere un inicio, en esta ocasion se hara una entrada de datos que registrara el año actual de la persona y su año de nacimiento, posteriormente se comprobara si el año actual de la persona es superior al de nacimiento, si la condicion no se cumple regresara a pedir nuevamente el año actual siendo mayor que el de nacimiento, en caso de que si se cumple se realizara un proceso para saber la edad restando el año de nacimiento al año actual para dar fin al programa
 #### 11.2 Diagrama
@@ -132,7 +132,7 @@ Se pregunta al usuario su año actual como "aact" y posteriormente su año de na
 #### 11.5 Salidas
 aact-anac
 
-### Ejercicio 12. Obtener la distancia mayor de 2 numeros consecutivos en una lista de 10 vectores.
+### Ejercicio 12. Pregunte un año de nacimiento mayor a 0 y el año actual mayor a 0 y calcule la edad.
 #### 12.1 Analisis
 Se requiere un inicio, se le pedira al usuario su año de nacimiento y se comprobara que sea mayor a 0 si la condicion se cumple le pedira el año de actual mayor al año nacimiento, si se cumple la condicion se genera un proceso de operacion para calcular la edad aact-anac para dar fin al programa
 #### 12.2 Diagrama
@@ -144,7 +144,7 @@ Se le pide al usuario su año de nacimiento mayor a 0 guardado como anac y el ac
 #### 12.5 Salidas
 aact-anac
 
-### Ejercicio 13. Almacene en un array el resultado de una tabla de multiplicar (10 numeros)
+### Ejercicio 13. Escriba un algoritmo que cuente del 1 al 10
 #### 13.1 Analisis
 Se requiere un inicio, se programa un contador en un proceso y se imprime, mediante una condicion se espera que sea 10, en caso no ser 10 el contador aumenta en 1 y regresa a repetir el proceso, una vez el valor sea 10 imprime los 10 numeros para dar fin al programa
 #### 13.2 Diagrama
